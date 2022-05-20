@@ -8,7 +8,8 @@ export type {
 	IMediaFile,
 	Ref,
 	Deck,
-	ISOTimestamp
+	ISOTimestamp,
+	IStock
 } from "./models";
 export { ColorCodes, RouletteColor, CardSuit, Extension } from "./values";
 export type {
