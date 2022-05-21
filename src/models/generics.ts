@@ -17,6 +17,7 @@ export interface IServerSettings {
 	allowance_rate: number;
 	birthday_bucks: number;
 	tax_rate: number;
+	feature_rate: number;
 }
 
 export interface IEngagementMetrics {

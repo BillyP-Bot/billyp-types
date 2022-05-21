@@ -1,4 +1,4 @@
-import { Extension } from "../values";
+import { Extension, FeatureStatus } from "../values";
 import type { ICard, IServerSettings, IUserMetrics } from "./generics";
 
 export type Ref<T extends IModel> = Partial<T> & string;
@@ -49,6 +49,16 @@ export interface IUser extends IModel {
 	is_mayor: boolean;
 	metrics: IUserMetrics;
 	birthday?: ISOTimestamp;
+}
+
+export interface IFeature extends IModel {
+	server_id: string;
+	user_id: string;
+	user: Ref<IUser>;
+	title: string;
+	body: string;
+	status: FeatureStatus;
+	up_votes: number;
 }
 
 export interface IAnnouncement extends IModel {

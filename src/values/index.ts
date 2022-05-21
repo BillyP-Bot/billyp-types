@@ -37,3 +37,13 @@ export enum Extension {
 	pdf = "pdf",
 	ico = "ico"
 }
+
+/**
+ feature status enum
+ */
+export enum FeatureStatus {
+	rejected = "rejected",
+	pending = "pending",
+	in_progress = "in_progress",
+	completed = "completed"
+}
