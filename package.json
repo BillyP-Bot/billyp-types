@@ -1,6 +1,6 @@
 {
 	"name": "btbot-types",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"description": "a shared types package for billy suite",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",

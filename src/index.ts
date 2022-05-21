@@ -9,9 +9,10 @@ export type {
 	Ref,
 	Deck,
 	ISOTimestamp,
-	IStock
+	IStock,
+	IFeature
 } from "./models";
-export { ColorCodes, RouletteColor, CardSuit, Extension } from "./values";
+export { ColorCodes, RouletteColor, CardSuit, Extension, FeatureStatus } from "./values";
 export type {
 	ICard,
 	IHandCount,
