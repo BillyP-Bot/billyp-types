@@ -47,6 +47,7 @@ export interface IUser extends IModel {
 	has_lottery_ticket: boolean;
 	is_admin: boolean;
 	is_mayor: boolean;
+	is_fool: boolean;
 	metrics: IUserMetrics;
 	birthday?: ISOTimestamp;
 }
