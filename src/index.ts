@@ -1,5 +1,6 @@
 export type {
 	IModel,
+	IChallenge,
 	IBlackJack,
 	IServer,
 	IUser,
