@@ -47,3 +47,12 @@ export enum FeatureStatus {
 	in_progress = "in_progress",
 	completed = "completed"
 }
+
+/**
+ blackjack reacts enum
+ */
+export enum BlackjackReacts {
+	hit = "🟩",
+	stand = "🟨",
+	doubleDown = "🟦"
+}

@@ -12,7 +12,14 @@ export type {
 	IStock,
 	IFeature
 } from "./models";
-export { ColorCodes, RouletteColor, CardSuit, Extension, FeatureStatus } from "./values";
+export {
+	ColorCodes,
+	RouletteColor,
+	CardSuit,
+	Extension,
+	FeatureStatus,
+	BlackjackReacts
+} from "./values";
 export type {
 	ICard,
 	IHandCount,
