@@ -13,6 +13,14 @@ export interface IModel {
 	// _v: number; version key virtual exists on document
 }
 
+export interface IBet extends IModel {
+	server_id: string;
+	user_id: string;
+	challenge_id: string;
+	mayor_id: string;
+	amount: number;
+}
+
 export interface IChallenge extends IModel {
 	server_id: string;
 	challenger_id: string;
@@ -51,7 +59,6 @@ export interface IUser extends IModel {
 	username: string;
 	discriminator: string;
 	avatar_hash?: string;
-	champion_id?: string;
 	allowance_available: boolean;
 	has_lottery_ticket: boolean;
 	is_admin: boolean;
