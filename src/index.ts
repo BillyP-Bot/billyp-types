@@ -1,4 +1,4 @@
-export type {
+export {
 	IModel,
 	IBet,
 	IChallenge,
@@ -22,7 +22,7 @@ export {
 	FeatureStatus,
 	BlackjackReacts
 } from "./values";
-export type {
+export {
 	ICard,
 	IHandCount,
 	IServerSettings,
