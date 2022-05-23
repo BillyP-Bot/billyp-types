@@ -1,6 +1,5 @@
 export {
 	IModel,
-	IBet,
 	IChallenge,
 	IBlackJack,
 	IServer,
@@ -23,6 +22,7 @@ export {
 	BlackjackReacts
 } from "./values";
 export {
+	IBet,
 	ICard,
 	IHandCount,
 	IServerSettings,

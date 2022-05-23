@@ -1,5 +1,5 @@
 import { Extension, FeatureStatus } from "../values";
-import type { ICard, IServerSettings, IUserMetrics } from "./generics";
+import type { IBet, ICard, IServerSettings, IUserMetrics } from "./generics";
 
 export type Ref<T extends IModel> = Partial<T> & string;
 export type Deck = ICard[];
@@ -11,11 +11,6 @@ export interface IModel {
 	updated_at: ISOTimestamp;
 	toJSON<T>(): T;
 	// _v: number; version key virtual exists on document
-}
-
-export interface IBet extends IModel {
-	user_id: string;
-	amount: number;
 }
 
 export interface IChallenge extends IModel {

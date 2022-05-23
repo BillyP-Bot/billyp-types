@@ -1,5 +1,11 @@
 import { CardSuit } from "../values";
 
+export interface IBet {
+	user_id: string;
+	champion_id: string;
+	amount: number;
+}
+
 export interface ICard {
 	suit: CardSuit;
 	value: number;
