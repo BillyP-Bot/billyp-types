@@ -1,5 +1,10 @@
 import { CardSuit } from "../values";
 
+export interface IParticipant {
+	user_id: string;
+	is_mayor: boolean;
+}
+
 export interface ICard {
 	suit: CardSuit;
 	value: number;
