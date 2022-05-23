@@ -1,9 +1,8 @@
 import { CardSuit } from "../values";
 
-export interface IBet {
+export interface IParticipant {
 	user_id: string;
-	champion_id: string;
-	amount: number;
+	is_mayor: boolean;
 }
 
 export interface ICard {
