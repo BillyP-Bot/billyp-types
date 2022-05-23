@@ -14,10 +14,7 @@ export interface IModel {
 }
 
 export interface IBet extends IModel {
-	server_id: string;
 	user_id: string;
-	challenge_id: string;
-	mayor_id: string;
 	amount: number;
 }
 
@@ -26,6 +23,7 @@ export interface IChallenge extends IModel {
 	challenger_id: string;
 	mayor_id: string;
 	details: string;
+	bets: IBet[];
 	is_active: boolean;
 }
 
