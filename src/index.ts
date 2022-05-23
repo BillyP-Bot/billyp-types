@@ -30,5 +30,6 @@ export {
 	IGamblingMetrics,
 	ILotteryMetrics,
 	IUserMetrics,
+	IParticipant,
 	IEmbed
 } from "./models/generics";
