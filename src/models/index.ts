@@ -1,5 +1,11 @@
-import { Extension, FeatureStatus } from "../values";
-import type { ICard, IServerSettings, IUserMetrics, IParticipant } from "./generics";
+import { ClientElevation, Extension, FeatureStatus } from "../values";
+import type {
+	ICard,
+	IServerSettings,
+	IUserMetrics,
+	IParticipant,
+	IClientAuthState
+} from "./generics";
 
 export type Ref<T extends IModel> = Partial<T> & string;
 export type Deck = ICard[];
@@ -110,4 +116,13 @@ export interface IStock extends IModel {
 	currency: string;
 	amount: number;
 	is_deleted: boolean;
+}
+
+export interface IClient extends IModel {
+	email: string;
+	username: string;
+	password: string;
+	elevation: ClientElevation;
+	token_version: number;
+	auth_state?: IClientAuthState;
 }

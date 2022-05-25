@@ -56,3 +56,11 @@ export enum BlackjackReacts {
 	stand = "🟨",
 	doubleDown = "🟦"
 }
+
+/**
+ client authorization elevation
+ */
+export enum ClientElevation {
+	user = "user",
+	admin = "admin"
+}

@@ -82,3 +82,12 @@ export interface IEmbed {
 		value: string;
 	}[];
 }
+
+export interface IClientAuthState {
+	user_id?: string;
+	username?: string;
+	discriminator?: string;
+	avatar?: string;
+	access_token?: string;
+	refresh_token?: string;
+}

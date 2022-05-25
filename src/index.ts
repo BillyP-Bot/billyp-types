@@ -12,7 +12,8 @@ export {
 	Deck,
 	ISOTimestamp,
 	IStock,
-	IFeature
+	IFeature,
+	IClient
 } from "./models";
 export {
 	ColorCodes,
@@ -20,7 +21,8 @@ export {
 	CardSuit,
 	Extension,
 	FeatureStatus,
-	BlackjackReacts
+	BlackjackReacts,
+	ClientElevation
 } from "./values";
 export {
 	ICard,
@@ -31,5 +33,6 @@ export {
 	ILotteryMetrics,
 	IUserMetrics,
 	IParticipant,
-	IEmbed
+	IEmbed,
+	IClientAuthState
 } from "./models/generics";
