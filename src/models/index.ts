@@ -1,4 +1,4 @@
-import { ClientElevation, Extension, FeatureStatus } from "../values";
+import { ClientConnectionStatus, ClientElevation, Extension, FeatureStatus } from "../values";
 import type {
 	ICard,
 	IServerSettings,
@@ -125,4 +125,5 @@ export interface IClient extends IModel {
 	elevation: ClientElevation;
 	token_version: number;
 	auth_state?: IClientAuthState;
+	connection_status: ClientConnectionStatus;
 }

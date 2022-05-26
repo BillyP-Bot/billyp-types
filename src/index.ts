@@ -22,7 +22,8 @@ export {
 	Extension,
 	FeatureStatus,
 	BlackjackReacts,
-	ClientElevation
+	ClientElevation,
+	ClientConnectionStatus
 } from "./values";
 export {
 	ICard,

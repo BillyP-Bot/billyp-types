@@ -64,3 +64,11 @@ export enum ClientElevation {
 	user = "user",
 	admin = "admin"
 }
+
+/**
+ client connection status
+ */
+export enum ClientConnectionStatus {
+	connected = "connected",
+	disconnected = "disconnected"
+}
