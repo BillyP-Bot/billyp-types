@@ -61,7 +61,7 @@ export interface IGamblingMetrics {
 		wins: number;
 		losses: number;
 		overall_winnings: number;
-		overall_losses: number;
+		overall_loings: number;
 	};
 }
 
