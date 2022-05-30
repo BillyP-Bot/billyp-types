@@ -90,4 +90,5 @@ export interface IClientAuthState {
 	avatar?: string;
 	access_token?: string;
 	refresh_token?: string;
+	registered_servers?: string[];
 }
