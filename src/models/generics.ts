@@ -56,6 +56,13 @@ export interface IGamblingMetrics {
 			hand: ICard[];
 		};
 	};
+	challenges: {
+		bets: number;
+		wins: number;
+		losses: number;
+		overall_winnings: number;
+		overall_losses: number;
+	};
 }
 
 export interface ILotteryMetrics {
