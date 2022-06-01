@@ -23,6 +23,7 @@ export interface IServerSettings {
 	birthday_bucks: number;
 	tax_rate: number;
 	feature_rate: number;
+	challenge_bet_max: number;
 }
 
 export interface IEngagementMetrics {
