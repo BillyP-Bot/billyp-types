@@ -72,3 +72,11 @@ export enum ClientConnectionStatus {
 	connected = "connected",
 	disconnected = "disconnected"
 }
+
+/**
+ connect four color enum
+ */
+export enum ConnectFourColor {
+	red = "red",
+	yellow = "yellow"
+}
