@@ -140,8 +140,10 @@ export interface IConnectFour extends IModel {
 	server_id: string;
 	red_user_id: string;
 	yellow_user_id: string;
+	to_move: string;
 	board: ConnectFourColumn[];
 	wager: number;
+	status: string;
 	is_accepted: boolean;
 	is_complete: boolean;
 }
