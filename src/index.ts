@@ -27,7 +27,8 @@ export {
 	BlackjackReacts,
 	ClientElevation,
 	ClientConnectionStatus,
-	ConnectFourColor
+	ConnectFourColor,
+	ConnectFourReacts
 } from "./values";
 export {
 	ICard,
