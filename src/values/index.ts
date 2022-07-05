@@ -77,6 +77,20 @@ export enum ClientConnectionStatus {
  connect four color enum
  */
 export enum ConnectFourColor {
-	red = "red",
-	yellow = "yellow"
+	red = "🔴",
+	yellow = "🟡",
+	empty = "⏺️"
+}
+
+/**
+ connect four reacts enum
+ */
+export enum ConnectFourReacts {
+	one = "1️⃣",
+	two = "2️⃣",
+	three = "3️⃣",
+	four = "4️⃣",
+	five = "5️⃣",
+	six = "6️⃣",
+	seven = "7️⃣"
 }
