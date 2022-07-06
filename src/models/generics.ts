@@ -64,6 +64,14 @@ export interface IGamblingMetrics {
 		overall_winnings: number;
 		overall_losings: number;
 	};
+	connect_four: {
+		games: number;
+		wins: number;
+		losses: number;
+		draws: number;
+		overall_winnings: number;
+		overall_losings: number;
+	};
 }
 
 export interface ILotteryMetrics {
