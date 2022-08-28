@@ -13,7 +13,10 @@ export {
 	ISOTimestamp,
 	IStock,
 	IFeature,
-	IClient
+	IClient,
+	ConnectFourPiece,
+	ConnectFourColumn,
+	IConnectFour
 } from "./models";
 export {
 	ColorCodes,
@@ -23,7 +26,9 @@ export {
 	FeatureStatus,
 	BlackjackReacts,
 	ClientElevation,
-	ClientConnectionStatus
+	ClientConnectionStatus,
+	ConnectFourColor,
+	ConnectFourReacts
 } from "./values";
 export {
 	ICard,

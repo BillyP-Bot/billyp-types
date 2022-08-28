@@ -23,6 +23,7 @@ export interface IServerSettings {
 	birthday_bucks: number;
 	tax_rate: number;
 	feature_rate: number;
+	challenge_bet_max: number;
 }
 
 export interface IEngagementMetrics {
@@ -55,6 +56,21 @@ export interface IGamblingMetrics {
 			won: boolean;
 			hand: ICard[];
 		};
+	};
+	challenges: {
+		bets: number;
+		wins: number;
+		losses: number;
+		overall_winnings: number;
+		overall_losings: number;
+	};
+	connect_four: {
+		games: number;
+		wins: number;
+		losses: number;
+		draws: number;
+		overall_winnings: number;
+		overall_losings: number;
 	};
 }
 

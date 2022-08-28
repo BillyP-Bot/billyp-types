@@ -1,4 +1,10 @@
-import { ClientConnectionStatus, ClientElevation, Extension, FeatureStatus } from "../values";
+import {
+	ClientConnectionStatus,
+	ClientElevation,
+	ConnectFourColor,
+	Extension,
+	FeatureStatus
+} from "../values";
 import type {
 	ICard,
 	IServerSettings,
@@ -10,6 +16,8 @@ import type {
 export type Ref<T extends IModel> = Partial<T> & string;
 export type Deck = ICard[];
 export type ISOTimestamp = Date | string;
+export type ConnectFourPiece = ConnectFourColor.red | ConnectFourColor.yellow;
+export type ConnectFourColumn = ConnectFourPiece[];
 
 export interface IModel {
 	_id: string;
@@ -126,4 +134,16 @@ export interface IClient extends IModel {
 	token_version: number;
 	auth_state?: IClientAuthState;
 	connection_status: ClientConnectionStatus;
+}
+
+export interface IConnectFour extends IModel {
+	server_id: string;
+	red_user_id: string;
+	yellow_user_id: string;
+	to_move: string;
+	board: ConnectFourColumn[];
+	wager: number;
+	status: string;
+	is_accepted: boolean;
+	is_complete: boolean;
 }
