@@ -4,10 +4,6 @@
 	"description": "a shared types package for billy suite",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
-	"engines": {
-		"node": "^14.15.0 || ^16.6.2",
-		"yarn": "^1.22.5"
-	},
 	"scripts": {
 		"prepare": "husky install",
 		"lint": "eslint --fix --ext .ts .",
