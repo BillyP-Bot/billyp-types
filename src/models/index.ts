@@ -33,6 +33,7 @@ export interface IChallenge extends IModel {
 	details: string;
 	bets: IBet[];
 	is_active: boolean;
+	is_betting_active: boolean;
 }
 
 export interface IBet extends IModel {
