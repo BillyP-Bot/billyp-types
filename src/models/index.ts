@@ -156,3 +156,10 @@ export interface IOpenAiImage extends IModel {
 	filename: string;
 	permalink: string;
 }
+
+export interface IOpenAiCompletion extends IModel {
+	server_id: string;
+	user_id: string;
+	prompt: string;
+	output: string;
+}

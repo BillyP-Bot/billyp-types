@@ -17,7 +17,8 @@ export {
 	ConnectFourPiece,
 	ConnectFourColumn,
 	IConnectFour,
-	IOpenAiImage
+	IOpenAiImage,
+	IOpenAiCompletion
 } from "./models";
 export {
 	ColorCodes,
