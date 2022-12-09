@@ -30,7 +30,8 @@ export {
 	ClientElevation,
 	ClientConnectionStatus,
 	ConnectFourColor,
-	ConnectFourReacts
+	ConnectFourReacts,
+	OpenAiCompletionModel
 } from "./values";
 export {
 	ICard,

@@ -94,3 +94,13 @@ export enum ConnectFourReacts {
 	six = "6️⃣",
 	seven = "7️⃣"
 }
+
+/**
+ openai completion model enum
+ */
+export enum OpenAiCompletionModel {
+	davinci = "text-davinci-003",
+	curie = "text-curie-001",
+	babbage = "text-babbage-001",
+	ada = "text-ada-001"
+}
