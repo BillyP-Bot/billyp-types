@@ -23,8 +23,8 @@ export interface IModel {
 	_id: string;
 	created_at: ISOTimestamp;
 	updated_at: ISOTimestamp;
+	_v: number;
 	toJSON<T>(): T;
-	// _v: number; version key virtual exists on document
 }
 
 export interface IChallenge extends IModel {
@@ -147,4 +147,12 @@ export interface IConnectFour extends IModel {
 	status: string;
 	is_accepted: boolean;
 	is_complete: boolean;
+}
+
+export interface IOpenAiImage extends IModel {
+	server_id: string;
+	user_id: string;
+	prompt: string;
+	filename: string;
+	permalink: string;
 }
