@@ -163,3 +163,8 @@ export interface IOpenAiCompletion extends IModel {
 	prompt: string;
 	output: string;
 }
+
+export interface IFunFact extends IModel {
+	server_id: string;
+	fact: string;
+}
