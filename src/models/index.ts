@@ -165,6 +165,5 @@ export interface IOpenAiCompletion extends IModel {
 }
 
 export interface IFunFact extends IModel {
-	server_id: string;
 	fact: string;
 }
