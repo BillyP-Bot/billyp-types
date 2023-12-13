@@ -19,7 +19,9 @@ export {
 	IConnectFour,
 	IOpenAiImage,
 	IOpenAiCompletion,
-	IFunFact
+	IFunFact,
+	IDealOrNoDeal,
+	IDealOrNoDealCase
 } from "./models";
 export {
 	ColorCodes,
@@ -32,7 +34,8 @@ export {
 	ClientConnectionStatus,
 	ConnectFourColor,
 	ConnectFourReacts,
-	OpenAiCompletionModel
+	OpenAiCompletionModel,
+	DealOrNoDealReacts
 } from "./values";
 export {
 	ICard,

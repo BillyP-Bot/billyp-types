@@ -105,3 +105,11 @@ export enum OpenAiCompletionModel {
 	ada = "text-ada-001",
 	turbo35 = "gpt-3.5-turbo"
 }
+
+/**
+ deal or no deal reacts enum
+ */
+export enum DealOrNoDealReacts {
+	deal = "🟢",
+	noDeal = "🔴"
+}

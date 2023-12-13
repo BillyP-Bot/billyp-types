@@ -167,3 +167,19 @@ export interface IOpenAiCompletion extends IModel {
 export interface IFunFact extends IModel {
 	fact: string;
 }
+
+export interface IDealOrNoDeal extends IModel {
+	server_id: string;
+	user_id: string;
+	cases: IDealOrNoDealCase[];
+	selected_case: number;
+	last_opened_case: number;
+	to_open: number;
+	offer: number;
+	is_complete: boolean;
+}
+
+export interface IDealOrNoDealCase {
+	value: number;
+	is_open: boolean;
+}
