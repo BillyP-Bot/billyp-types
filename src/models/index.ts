@@ -80,6 +80,7 @@ export interface IUser extends IModel {
 	is_fool: boolean;
 	metrics: IUserMetrics;
 	birthday?: ISOTimestamp;
+	is_deal_or_no_deal_eligible: boolean;
 }
 
 export interface IFeature extends IModel {
