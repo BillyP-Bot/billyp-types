@@ -72,6 +72,13 @@ export interface IGamblingMetrics {
 		overall_winnings: number;
 		overall_losings: number;
 	};
+	sports_betting: {
+		bets: number;
+		wins: number;
+		losses: number;
+		total_amount_bet: number;
+		total_amount_won: number;
+	};
 }
 
 export interface ILotteryMetrics {

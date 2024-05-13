@@ -21,7 +21,10 @@ export {
 	IOpenAiCompletion,
 	IFunFact,
 	IDealOrNoDeal,
-	IDealOrNoDealCase
+	IDealOrNoDealCase,
+	ISportsBet,
+	ISportBetUpcomingGame,
+	ISportsBetGameResult
 } from "./models";
 export {
 	ColorCodes,
@@ -35,7 +38,8 @@ export {
 	ConnectFourColor,
 	ConnectFourReacts,
 	OpenAiCompletionModel,
-	DealOrNoDealReacts
+	DealOrNoDealReacts,
+	SportKey
 } from "./values";
 export {
 	ICard,

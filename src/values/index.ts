@@ -113,3 +113,13 @@ export enum DealOrNoDealReacts {
 	deal = "🟢",
 	noDeal = "🔴"
 }
+
+/**
+ sports betting sport key enum
+ */
+export enum SportKey {
+	NBA = "basketball_nba",
+	NFL = "americanfootball_nfl",
+	NHL = "icehockey_nhl",
+	MLB = "baseball_mlb"
+}

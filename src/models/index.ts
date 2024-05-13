@@ -184,3 +184,53 @@ export interface IDealOrNoDealCase {
 	value: number;
 	is_open: boolean;
 }
+
+export interface ISportsBet extends IModel {
+	server_id: string;
+	user_id: string;
+	sport_key: string;
+	game_id: string;
+	commence_time: string;
+	team: string;
+	bet_amount: number;
+	odds: number;
+	is_complete: boolean;
+	is_won: boolean;
+}
+
+export interface ISportBetUpcomingGame {
+	id: string;
+	sport_key: string;
+	sport_title: string;
+	commence_time: string;
+	home_team: string;
+	away_team: string;
+	bookmakers: {
+		key: string;
+		title: string;
+		last_update: string;
+		markets: {
+			key: string;
+			last_update: string;
+			outcomes: {
+				name: string;
+				price: number;
+			}[];
+		}[];
+	}[];
+}
+
+export interface ISportsBetGameResult {
+	id: string;
+	sport_key: string;
+	sport_title: string;
+	commence_time: string;
+	completed: boolean;
+	home_team: string;
+	away_team: string;
+	scores: {
+		name: string;
+		score: string;
+	}[];
+	last_update: string;
+}
