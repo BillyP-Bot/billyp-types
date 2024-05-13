@@ -23,7 +23,7 @@ export {
 	IDealOrNoDeal,
 	IDealOrNoDealCase,
 	ISportsBet,
-	ISportBetUpcomingGame,
+	ISportsBetUpcomingGame,
 	ISportsBetGameResult
 } from "./models";
 export {

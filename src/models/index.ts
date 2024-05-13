@@ -198,7 +198,7 @@ export interface ISportsBet extends IModel {
 	is_won: boolean;
 }
 
-export interface ISportBetUpcomingGame {
+export interface ISportsBetUpcomingGame {
 	id: string;
 	sport_key: string;
 	sport_title: string;
