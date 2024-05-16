@@ -119,6 +119,7 @@ export enum DealOrNoDealReacts {
  */
 export enum SportKey {
 	NBA = "basketball_nba",
+	WNBA = "basketball_wnba",
 	NFL = "americanfootball_nfl",
 	NHL = "icehockey_nhl",
 	MLB = "baseball_mlb"
